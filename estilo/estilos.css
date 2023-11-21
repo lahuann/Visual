@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+header{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.logo{
+    border-radius: 100%;
+    width: 200px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+main{
+    margin: 30px;
+    padding: 30px;
+}
+
+footer{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: aqua;
+
+}
+
+h1{
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.ContenedorImg{
+    margin: 20px;
+}
+
+.ContenedorImagenesInicio {
+    min-height: calc(100vh - 200px);
+  }
+
+.ViajeImg{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+input[type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.botones{
+    background-color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-xl-6,
+.col-xl-3 {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.col-xl-6 p,
+.col-xl-3 p {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    font-size: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+
+@media (max-width:1035px){
+
+.col-xl-6,
+.col-xl-3 {
+    width: 100%;
+}
+
+.ContenedorImagenesInicio {
+    min-height: calc(90vh);
+  }
+
+
+}
+
+@media (max-width:767px){
+
+    .col-xl-6,
+    .col-xl-3 {
+        width: 100%;
+    }
+
+    .col-sm-12{
+        height: 50%;
+    }
+    .ContenedorImagenesInicio {
+        min-height: calc(10px);
+      }
+    
+      .ContenedorImagenesInicio {
+        min-height: calc(90vh);
+      } 
+      
+}  
+
+
+    
+
+    

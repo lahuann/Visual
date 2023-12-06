@@ -116,6 +116,8 @@ textarea {
     text-align: center;
     overflow: hidden;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .col-xl-6 p,
@@ -123,7 +125,7 @@ textarea {
     position: absolute;
     bottom: 0;
     left: 50%;
-
+    transform: translateX(-50%);
     font-size: 20px;
 }
 
@@ -131,6 +133,52 @@ p{
     text-align: center;
 }
 
+/**Footer**/
+
+footer {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: beige;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-social i {
+    font-size: 2rem;
+}
 
 @media (max-width:1035px){
 
@@ -164,6 +212,9 @@ p{
         min-height: calc(90vh);
       } 
       
+      .footer-section {
+        flex: 1 0 100%;
+    }
 }  
 
 

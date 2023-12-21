@@ -1,70 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import 'base/reset';
+ *   |         ^^^^^^^^^^^^
+ *   '
+ *   scss\estilos.scss 1:9  root stylesheet */
 
-header {
-  border-bottom: 1px solid black;
-  text-align: center;
-  padding: 10px 20px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import 'base/reset';\d\a   \2502          ^^^^^^^^^^^^\a   \2575 \a   scss\\estilos.scss 1:9  root stylesheet";
 }
-
-.logo {
-  border-radius: 100%;
-  width: 200px;
-}
-
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin: 20px;
-}
-
-a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-}
-
-footer {
-  margin: 20px;
-  padding: 20px;
-  text-align: center;
-  background-color: beige;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.footer-section {
-  flex: 1;
-  margin: 10px;
-}
-.footer-section h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-.footer-section p {
-  font-size: 1rem;
-  color: #333;
-}
-
-.footer-social {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
-.footer-social a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #333;
-}
-.footer-social i {
-  font-size: 2rem;
-}
-
-/*# sourceMappingURL=estilos.css.map */

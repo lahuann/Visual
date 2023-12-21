@@ -1,8 +1,6 @@
-@import "variables";
-@import "reset";
-@import "fuentes";
-@import "header";
-@import "toures";
-@import "contacto";
-@import "responsive";
-@import "footer";
+@import 'base/reset';
+@import 'base/variables';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/main';
+@import 'layouts/responsive';
